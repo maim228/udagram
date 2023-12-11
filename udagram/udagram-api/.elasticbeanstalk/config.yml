@@ -1,12 +1,12 @@
 branch-defaults:
   default:
     environment: Udagram-api-dev-env
+deploy:
+  artifact: ./www/Archive.zip
 environment-defaults:
   Udagram-api-dev-env:
     branch: null
     repository: null
-deploy:
-  artifact: ./www/Archive.zip
 global:
   application_name: udagram-api-dev
   default_ec2_keyname: null
